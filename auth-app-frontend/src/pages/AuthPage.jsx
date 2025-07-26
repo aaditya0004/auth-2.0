@@ -1,6 +1,6 @@
 import React from "react";
 import AuthForm from "../components/AuthForm";
-import LOGO from "../utils/noir.jpg";
+import LOGO from "../utils/oauth.jpg";
 import { FiArrowLeft } from "react-icons/fi";
 
 const AuthPage = ({ onAuthSuccess, userType, onBack }) => (
@@ -16,7 +16,7 @@ const AuthPage = ({ onAuthSuccess, userType, onBack }) => (
     <div className="text-center mb-8">
       <img
         src={LOGO}
-        alt="Noir Capital Logo"
+        alt="oauth 2.0 Logo"
         className="h-16 w-auto mx-auto mb-4"
       />
     </div>
