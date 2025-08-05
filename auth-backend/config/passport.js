@@ -14,7 +14,7 @@ module.exports = function (passport) {
         // This function is called when Google successfully authenticates the user.
         // 'profile' contains the user's Google profile information.
         const newUser = {
-          googleID: profile.id,
+          googleId: profile.id,
           name: profile.displayName,
           email: profile.emails[0].value,
         };
